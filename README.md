@@ -173,12 +173,13 @@ The data json that needs to be passed to the model should be in this format:
 
 # Running the model using BentoML
 
-You need first to have bentoml instaed, download the service.py and bentofile.yaml. <br>
+You need first to have bentoml installed , download the service.py and bentofile.yaml. <br>
 
+To install bentoml, run <code> pip install bentoml  </code> <br>
 Then, run below commands:
 <code>
-bentoml build
-bentoml serve service.py:svc --production   
+bentoml build <br>
+bentoml serve service.py:svc --production  <br>  
  </code>
 
 
