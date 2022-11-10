@@ -176,8 +176,10 @@ The data json that needs to be passed to the model should be in this format:
 You need first to have bentoml instaed, download the service.py and bentofile.yaml. <br>
 
 Then, run below commands:
+<code>
 bentoml build
 bentoml serve service.py:svc --production   
+ </code>
 
 
 # Docker Image
