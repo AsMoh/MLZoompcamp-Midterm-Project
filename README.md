@@ -21,15 +21,19 @@ Let's predict the probability that a raw network packet can be cybersecurity att
 
 # Running the model using BentoML
 
-You need first to run 
+You need first to have bentoml instaed, download the service.py and bentofile.yaml. <br>
+
+Then, run below commands:
+bentoml build
+bentoml serve service.py:svc --production   
 
 
-## Docker Image
+# Docker Image
 ### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
-docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz
+< code> docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz  </code>
 
 Then run the below command to run the service:
-docker run -it --rm -p 3000:3000 cyber_attack_classifier:c3ixmwk73cecv5bz serve --production
+< code> docker run -it --rm -p 3000:3000 cyber_attack_classifier:c3ixmwk73cecv5bz serve --production </code>
 
 The data json that needs to be passed to the model should be in this format:
 
