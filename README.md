@@ -178,9 +178,9 @@ You need first to have bentoml installed , download the service.py and bentofile
 To install bentoml, run <code> pip install bentoml  </code> <br>
 Then, run below commands:
 <code>
-bentoml build <br>
-bentoml serve service.py:svc --production  <br>  
- </code>
+bentoml build  </code> <br>
+<code> bentoml serve service.py:svc --production  <br>  
+
 
 
 # Docker Image
