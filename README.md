@@ -195,4 +195,8 @@ Then run the below command to run the service:
 Below link is a demo for running the model using the docker image.
 
 
-[![Watch the video](https://youtu.be/mN3jBV4ABLA)
+
+  
+  <a href="https://youtu.be/mN3jBV4ABLA" target="_blank">
+ <img alt="Watch the video" width="240" height="180" border="10" />
+</a>
