@@ -19,22 +19,7 @@ In my project, I have used the data available in UNSW_NB15_training-set.csv file
 Let's predict the probability that a raw network packet can be cybersecurity attack.
 <br>
 
-# Running the model using BentoML
-
-You need first to have bentoml instaed, download the service.py and bentofile.yaml. <br>
-
-Then, run below commands:
-bentoml build
-bentoml serve service.py:svc --production   
-
-
-# Docker Image
-### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
-< code> docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz  </code>
-
-Then run the below command to run the service:
-< code> docker run -it --rm -p 3000:3000 cyber_attack_classifier:c3ixmwk73cecv5bz serve --production </code>
-
+# Data Format
 The data json that needs to be passed to the model should be in this format:
 
 <code>
@@ -185,6 +170,24 @@ The data json that needs to be passed to the model should be in this format:
   "is_sm_ips_ports": 0
 }
 </code>
+
+# Running the model using BentoML
+
+You need first to have bentoml instaed, download the service.py and bentofile.yaml. <br>
+
+Then, run below commands:
+bentoml build
+bentoml serve service.py:svc --production   
+
+
+# Docker Image
+### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
+<code> docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz  </code>
+
+Then run the below command to run the service:
+<code> docker run -it --rm -p 3000:3000 cyber_attack_classifier:c3ixmwk73cecv5bz serve --production </code>
+
+
 
 Below link is a demo for running the model using the docker image.
 
