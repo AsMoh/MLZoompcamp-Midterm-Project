@@ -185,4 +185,4 @@ The data json that needs to be passed to the model should be in this format:
 Below link is a demo for running the model using the docker image.
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/mN3jBV4ABLA)
+[![Watch the video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/mN3jBV4ABLA)
