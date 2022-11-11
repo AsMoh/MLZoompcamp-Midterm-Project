@@ -180,12 +180,12 @@ Then, run below commands: <br>
 <code>
 bentoml build  </code> <br>
 <code> bentoml serve service.py:svc --production  <br>  
-
+  
+- Make sure that you run the commands in the same working direcotry.
 
 Below link is a demo for running the model using the docker image.
 
   
-
 
 https://user-images.githubusercontent.com/10277729/201234219-08df4091-86ce-4cd2-b027-184d4fb33039.mp4
 
