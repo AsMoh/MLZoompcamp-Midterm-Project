@@ -6,7 +6,7 @@ The Cyber Range Lab of the Australian Centre for Cyber Security (ACCS) has creat
 
 My goal is to develop ML model that predicts whether a certain raw network packets is a cybersecurity attack or not. 
 <div>
-<img src="https://www.cuinsight.com/wp-content/uploads/2022/04/bigstock-Hacker-In-Binary-Code-Digital-449899955.jpg" width="500"/>
+<img src="https://www.cuinsight.com/wp-content/uploads/2022/04/bigstock-Hacker-In-Binary-Code-Digital-449899955.jpg" width="700"/>
 </div>
 <br>
 
@@ -186,13 +186,16 @@ bentoml build  </code> <br>
   
 - Make sure that you run the commands in the same working direcotry.
 
-Below link is a demo for running the model using the docker image.
+Below link is a demo for running the model using the bentoml.
 
   
 
 https://user-images.githubusercontent.com/10277729/201234219-08df4091-86ce-4cd2-b027-184d4fb33039.mp4
 
+  ![Capture2](https://user-images.githubusercontent.com/10277729/201236939-cab63c05-9196-4d88-a837-d05ed046cdc0.PNG)
 
+
+  
 ## Docker Image
 ### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
 <code> docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz  </code>
