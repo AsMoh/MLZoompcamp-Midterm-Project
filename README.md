@@ -12,9 +12,12 @@ My goal is to develop ML model that predicts whether a certain raw network packe
 
 The UNSW-NB15_features.csv file that is uploaded in this repo includes the features description.
 
-The total number of records is two million and 540,044 which are stored in the four CSV files, namely, UNSW-NB151.csv, UNSW-NB152.csv, UNSW-NB153.csv and UNSW-NB154.csv.
+The total number of records is two million and 540,044 which are stored in the four CSV files, namely, UNSW-NB151.csv, UNSW-NB152.csv, UNSW-NB153.csv and UNSW-NB154.csv. <br>
 
-In my project, I have used the data available in UNSW_NB15_training-set.csv file ( uploaded in this repository). 
+In this project, I have used the data available in UNSW_NB15_training-set.csv file ( uploaded in this repository). Data preprocessing and cleaning and EDA have been done. Also, I have performed hyperparameter tunung & model selection proceess,and I have selected the best model in terms of accuracy, recall , preciosn, F score and roc_auc_score. I got the best results with XGboost . <br>
+
+![Capture](https://user-images.githubusercontent.com/10277729/201236673-c130fc8f-08d1-41fc-97c8-f6011e3253ee.PNG)
+
 
 Let's predict the probability that a raw network packet can be cybersecurity attack.
 <br>
