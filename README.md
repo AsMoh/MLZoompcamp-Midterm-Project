@@ -1,4 +1,4 @@
-# MLZoompcamp-Midterm-Project
+# ML Zoompcamp-Midterm-Project - 2022
 This repository contains my midterm project for ML zoom camp 2022. 
 Dataset source: https://www.kaggle.com/datasets/mrwellsdavid/unsw-nb15 
 
@@ -182,6 +182,11 @@ bentoml build  </code> <br>
 <code> bentoml serve service.py:svc --production  <br>  
 
 
+Below link is a demo for running the model using the docker image.
+
+  <a href="https://youtu.be/ZA6fmhAiG_k" target="_blank">
+ <img alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 # Docker Image
 ### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
