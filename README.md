@@ -19,7 +19,7 @@ In my project, I have used the data available in UNSW_NB15_training-set.csv file
 Let's predict the probability that a raw network packet can be cybersecurity attack.
 <br>
 
-# Data Format
+## Data Format
 The data json that needs to be passed to the model should be in this format:
 
 <code>
@@ -171,7 +171,7 @@ The data json that needs to be passed to the model should be in this format:
 }
 </code>
 
-# Running the model using BentoML
+## Running the model using BentoML
 
 You need first to have bentoml installed , download the service.py and bentofile.yaml. <br>
 
@@ -190,7 +190,7 @@ Below link is a demo for running the model using the docker image.
 https://user-images.githubusercontent.com/10277729/201234219-08df4091-86ce-4cd2-b027-184d4fb33039.mp4
 
 
-# Docker Image
+## Docker Image
 ### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
 <code> docker pull asia2022/cyber_attack_classifier:c3ixmwk73cecv5bz  </code>
 
