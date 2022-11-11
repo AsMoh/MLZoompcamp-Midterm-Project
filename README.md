@@ -184,9 +184,11 @@ bentoml build  </code> <br>
 
 Below link is a demo for running the model using the docker image.
 
-  <a href="https://youtu.be/ZA6fmhAiG_k" target="_blank">
- <img alt="Watch the video" width="240" height="180" border="10" />
-</a>
+  
+
+
+https://user-images.githubusercontent.com/10277729/201234219-08df4091-86ce-4cd2-b027-184d4fb33039.mp4
+
 
 # Docker Image
 ### To deploy the model locally and run it, you need first to pull the docker image by running the below command:
@@ -200,8 +202,8 @@ Then run the below command to run the service:
 Below link is a demo for running the model using the docker image.
 
 
-
   
-  <a href="https://youtu.be/mN3jBV4ABLA" target="_blank">
- <img alt="Watch the video" width="240" height="180" border="10" />
-</a>
+
+
+https://user-images.githubusercontent.com/10277729/201234246-2060fea2-a73b-4f2a-89f6-b8405b034428.mp4
+
